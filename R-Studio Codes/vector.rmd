@@ -1,0 +1,24 @@
+```{r}
+
+```
+```{r}
+library(tidyverse)
+```
+# c() function (called the “combine” function)
+# For example, you can use the c() function to store numeric data in a vector. 
+```{r}
+c(2.5, 48.5, 101.5)
+```
+# To create a vector of integers using the c() function, you must place the letter "L" directly after each number.
+```{r}
+c(1L, 5L, 15L)
+```
+# You can also create a vector containing characters or logicals.
+c(“Sara” , “Lisa” , “Anna”)
+c(TRUE, FALSE, TRUE)
+
+# Determining the properties of vectors 
+# Every vector you create will have two key properties: type and length.  
+
+# You can determine what type of vector you are working with by using the typeof() function.
+typeof(c(“a” , “b”))
